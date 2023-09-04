@@ -115,3 +115,25 @@ input:valid {
     border: 1.5px solid green;
 }
 
+.image .creator, .creator a {
+    color: white;
+}
+
+.image .creator {
+    position: absolute;
+    bottom: 5px;
+    margin-left: 9.5vw;
+}
+
+.content .log-in {
+    padding: 1vw 7vw 3vw 4vw;
+    font-size: 1vw;
+    position: relative;
+    bottom: 20px;
+}
+
+.log-in a {
+    font-size: 1.3vw;
+    color: green;
+    text-decoration: none;
+}
