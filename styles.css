@@ -89,6 +89,7 @@ li {
 input {
     width: 18vw;
     height: 30px;
+    border-radius: 10px;
 }
 
 .content form {
@@ -103,4 +104,14 @@ button {
     padding: 0.7vw 3vw;
     color: white;
     border: none;
+    cursor: pointer;
 }
+
+input:invalid {
+    border: 1.5px solid rgb(254, 162, 162);
+}
+
+input:valid {
+    border: 1.5px solid green;
+}
+
