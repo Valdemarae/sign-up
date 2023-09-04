@@ -138,3 +138,9 @@ input:valid {
     color: green;
     text-decoration: none;
 }
+
+.pwd {
+    font-size: 0.7vw;
+    color: rgb(252, 146, 146);
+    max-width: 17vw;
+}
