@@ -8,6 +8,7 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
@@ -17,6 +18,8 @@ body {
 .content {
     height: 100vh;
     width: 63vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5vw;
 }
 
 .image .logo-background {
@@ -48,4 +51,17 @@ body {
     width: 37vw;
     position: absolute;
     z-index: -1;
+}
+
+.text {
+    height: 39vh;
+    background-color: rgb(201, 201, 201);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.text p {
+    padding: 1vw 7vw 3vw 4vw;
+    font-weight: bold;
 }
