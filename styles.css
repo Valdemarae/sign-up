@@ -59,6 +59,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 .content .text p, .content header {
